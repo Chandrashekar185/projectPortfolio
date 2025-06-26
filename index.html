@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandra Shekar - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#experience" style="--i:4">Experience</a>
+            <a href="#projects" style="--i:5">Projects</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Chandra Shekar</h1>
+            <h2>I'm a <span class="text"></span></h2>
+            <p>Passionate Full Stack Developer with 8 months of hands-on experience in JavaScript, DOM manipulation, and UI debugging. Currently expanding expertise in the MERN Stack to build scalable, responsive web applications.</p>
+            <div class="home-sci">
+                <a href="https://github.com" style="--i:7" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com" style="--i:8" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://instagram.com" style="--i:9" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/" style="--i:10" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn" onclick="downloadResume()">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img.jpg" alt="Chandra Shekar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img-box">
+                <div class="about-img">
+                    <img src="img.jpg" alt="About Chandra Shekar">
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Full Stack Developer</h4>
+                <p>I'm a dedicated Web Developer with 8 months of hands-on experience working through Randstad, where I supported the GTaaS platform — a JavaScript-heavy internal tool used in autonomous vehicle data systems.</p>
+                <p>During this role, I actively worked on DOM inspection, UI debugging, and analyzing frontend behavior. This real-world exposure to browser-based interfaces and JavaScript logic sparked my deep interest in frontend development.</p>
+                <p>That interest has now grown into a focused path — I'm currently upskilling in the <strong>MERN Stack (MongoDB, Express.js, React.js, Node.js)</strong> to build full-stack, responsive, and scalable web applications.</p>
+                <p>I'm passionate about creating user-friendly interfaces and solving complex problems through clean, efficient code. My goal is to contribute to innovative projects that make a real impact.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML5</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>CSS3</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>React.js</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Node.js</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Express.js</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>MongoDB</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>REST APIs</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Git & GitHub</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>VS Code</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Responsive Design</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>DOM Manipulation</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="section-title">My <span>Experience</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Internship/Training</h3>
+                    <h4>ACCIOJOB (MERN Stack)</h4>
+                    <p>• Currently mastering MERN Stack development (MongoDB, Express.js, React.js, Node.js)</p>
+                    <p>• Building full-stack applications with modern development practices</p>
+                    <p>• Focusing on responsive design and scalable web application architecture</p>
+                    <p>• Implementing REST APIs and database integration</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2024 </div>
+                <div class="timeline-content">
+                    <h3>Tech support Engineer</h3>
+                    <h4>Randstad (0ct 2024 - June 2025,)</h4>
+                     <p>• Worked on GTaaS platform - a JavaScript-heavy internal tool for autonomous vehicle data systems</p>
+                    <p>• Specialized in DOM inspection, UI debugging, and frontend behavior analysis</p>
+                    <p>• Gained hands-on experience with browser-based interfaces and JavaScript logic</p>
+                    <p>• Collaborated with cross-functional teams to resolve frontend issues and improve user experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Website</h3>
+                    <p>A full-stack e-commerce platform built with MERN stack featuring user authentication, product catalog, shopping cart, and payment integration.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <div class="project-info">
+                    <h3>Responsive Portfolio</h3>
+                    <p>A modern, fully responsive portfolio website showcasing my skills and projects with smooth animations and mobile-first design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-task'></i>
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A productivity application for managing tasks and projects with features like drag-and-drop, priority settings, and progress tracking.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Local Storage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-cloud'></i>
+                </div>
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>A dynamic weather application that provides current weather data and forecasts using external APIs with a clean, intuitive interface.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-restaurant'></i>
+                </div>
+                <div class="project-info">
+                    <h3>Restaurant Website</h3>
+                    <p>A modern restaurant website with online menu, reservation system, and responsive design optimized for all devices.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class='bx bx-game'></i>
+                </div>
+                <div class="project-info">
+                    <h3>Interactive Game</h3>
+                    <p>A browser-based interactive game built with vanilla JavaScript featuring score tracking, multiple levels, and smooth animations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5 Canvas</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Game Logic</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to discuss a project or just want to connect!</p>
+                
+                <div class="contact-item">
+                    <i class='bx bx-map'></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Chodavaram, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>chandrashekharkallem22@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class='bx bx-phone'></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 834008342</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class='bx bx-time'></i>
+                    <div>
+                        <h4>Availability</h4>
+                        <p>Open to full-time,part time opportunities</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Chandra Shekar. All rights reserved. | Designed with ❤️ for innovation</p>
+    </footer>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- ✅ Initialize Typed.js -->
+  <script>
+    const typed = new Typed(".text", {
+      strings: ["Frontend Developer", "Full Stack Developer", "MERN Stack Developer", "Web Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+
+    </body>
+</html>
